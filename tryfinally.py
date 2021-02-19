@@ -16,7 +16,7 @@ try:
         print("Press ctrl+c now")
         # To make sure it runs for a while 
         time.sleep(2)
-        
+   
 except IOError:
     print("Could not find file poem.txt")
 except KeyboardInterrupt:
@@ -25,3 +25,6 @@ finally:
     if f:
         f.close()
     print("(Cleaning up: Closed the file)")
+
+
+print('llollolllooo') 
